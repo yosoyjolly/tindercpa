@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+  <title>Document</title>
+  <!-- styles -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+  <!-- Assets -->
+  <link rel="stylesheet" href="assets/animate.css">
+
+</head>
+<body>
+
+<!-- PARA CAMBIAR EL "LOADER" SOLAMENTE DEBEN CAMBIAR EL ARCHIVO LOAD.GIF  -->
+<div id="loading">
+    <img src="assets/img/load.gif" alt="" style="position: absolute;top:20%; left:30%;">
+</div>
+
+
+<section>
+  <div class="container animated bounceInUp">
+    <div class="row">
+      <div class="header-wrap">
+        <img src="assets/img/flameWhite.svg" class="center-block" style="height:127px; width: auto;" alt="">
+    </div>
+  </div> <!-- Row -->
+
+    <label for="" class="text-center full-width white">Introduce tu direccion de correo electronico</label>
+    <input type="text" class="center-block">
+      <img id="arrow" src="assets/img/flecha-hacia-abajo.svg" alt="" class="center-block animated infinite bounce" style="height:22px; margin-top:60px">
+
+
+<!-- LINK CPA 1 DEBEN CAMBIAR LA DIRECCION DEL HREF POR SU LINK  -->
+<a href="http://www.clarin.com">
+
+          <button type="button" name="button" class="center-block load">
+            Consigue tus matches
+          </button>
+</a>
+
+
+          <div class="center-block comments">
+                  <img src="assets/img/alba.jpg" class="center-block" alt="" height="">
+                  <p class="text-center">
+                    <span>ALBA - 22 AÑOS</span><br><br>
+                    Gracias a ustedes volví a usar Tinder, basta de tios que no me gustan!
+                  </p>
+                  <img src="assets/img/juanmartin.jpg" class="center-block" alt="" height="">
+                  <p class="text-center">
+                    <span>JUAN MARTIN - 28 AÑOS</span><br><br>
+                    Me salvaron la vida! Con esta web, solamente doy like a quienes ya me likearon a mi antes!
+                  </p>
+                  <img src="assets/img/anto.jpg" class="center-block" alt="" height="">
+                  <p class="text-center">
+                    <span>MARTINA - 19 AÑOS</span><br><br>
+                    Gracias!! Ahora si que consigo hablar con la gente que realmente me interesa y me evito que me hable gente que no quiero!
+                  </p>
+
+
+
+<!-- LINK CPA2 DEBEN CAMBIAR LA DIRECCION DEL HREF POR SU LINK  -->
+<a href="http://clarin.com" class="load">
+                  <button type="button" name="button" class="comments-btn center-block">Dejanos tu comentario</button>
+</a>
+
+
+
+        </div><!-- Comments  -->
+
+
+  </div> <!--container -->
+</section>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('#loading').css('display','none');
+  });
+  $('.load').click(function(event){
+    $('#loading').css('display','block');
+      });
+</script>
+</body>
+</html>
